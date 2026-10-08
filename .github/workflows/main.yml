@@ -25,6 +25,7 @@ jobs:
       - name: Descomprimir proyecto Android
         run: |
           unzip -o MascotaAndroid_v0.2.zip
+          mv MascotaAndroid_v0.2 MascotaAndroid
           ls -la
           ls -la MascotaAndroid
 
